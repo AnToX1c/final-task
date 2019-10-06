@@ -13,16 +13,12 @@ npm install
 
 To start project run:
 ```
-
+npm run start
 ```
 
-To build project run:
-```
-
-```
-It creates files into `/app` folder.
+It creates files into `/app` folder. Then open file `index.html` in a browser.
 
 ---
 ### Feedback
 
-Feel free to provide any feedback(remark/suggestion) on this project
+Feel free to provide any feedback(remark/suggestion/changes you would like to make) on this project

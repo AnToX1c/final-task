@@ -5,10 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Final task by Anton Lapshyn</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-  <h1>WWorks</h1>
-  <h2>Works23</h2>
-  <h3>Works!!!</h3>
+  <header class="header">
+    <nav>
+      <ul class="navbar-menu">
+        <li class="navbar-item navbar-logo">
+          <a href="#" class="navbar-logo-link">JobUp</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#">Dashboard</a>
+        </li>
+        <li class="navbar-item">
+          <a href="#">History</a>
+        </li>
+        <li class="navbar-item profile">
+          <a href="#">Profile</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <div class="new-task-wrapper">
+      <button class="task-block new-task">+ New Task</button>
+    </div>
+    <div class="tasks-list-wrapper">
+      <ul class="tasks-list"></ul>
+    </div>
+    <img src="./img/icons/Combined Shape Copy.svg" class="point-image"/>
+    <form action="http://localhost:3333/tasks" method="post" class="form-task">
+    </form>
+  </main>
+  <script src="./js/index.js"></script>
 </body>
 </html>

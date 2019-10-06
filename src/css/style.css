@@ -1,0 +1,267 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  color: #1a1b1f;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #1a1b1f;
+}
+
+button {
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.header {
+  margin: 0 auto;
+  width: 1400px;
+}
+
+.header nav {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.navbar-menu {
+  display: flex;
+  text-transform: uppercase;
+}
+
+.navbar-item a {
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-right: 55px;
+}
+
+.navbar-item :hover {
+  background-color: #f1f1f1;
+}
+
+.navbar-logo .navbar-logo-link {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #fa4c6f;
+  text-transform: none;
+  margin-right: 100px;
+}
+
+.profile {
+  margin-left: auto;
+}
+
+.profile a {
+  margin-right: 0;
+}
+
+.main {
+  position: relative;
+  margin: 0 auto;
+  width: 1400px;
+  height: 1150px;
+  overflow: hidden;
+  background-image: url("/img/map_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tasks-list-wrapper {
+  width: 50%;
+  margin-left: 40px;
+}
+
+.task-block {
+  background-color: #fff;
+  border: 0px solid transparent;
+  padding: 20px 20px 15px 20px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px #000;
+  margin-top: 10px;
+  width: 330px;
+}
+
+.task-block date {
+  color: #909090;
+  font-size: 16px;
+}
+
+.task-block .title {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.new-task-wrapper {
+  width: 370px;
+}
+
+.new-task {
+  margin-left: 40px;
+  font-size: 18px;
+  color: #4c71fe;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+}
+
+.new-task:hover {
+  background-color: #f1f1f1;
+}
+
+.button {
+  cursor: pointer;
+  border: 0px solid transparent;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.button-edit {
+  color: #fff;
+  background-color: #4c71fe;
+}
+
+.button-edit:hover {
+  background-color: #1949fe;
+}
+
+.button-delete {
+  color: #4c71fe;
+  background-color: #fff;
+}
+
+.button-delete:hover {
+  background-color: #e6e6e6;
+}
+
+.point-image {
+  position: absolute;
+  top: 600px;
+  left: 650px;
+  cursor: pointer;
+}
+
+.form-task {
+  position: absolute;
+  top: 0;
+  right: -510px;
+  max-width: 36%;
+  height: 100%;
+  background-color: #fff;
+  transition: right 0.4s ease-in-out;
+}
+
+.form-task fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.form-section {
+  border-bottom: 2px solid #f1f1f1;
+  padding: 25px 40px;
+}
+
+.form-header {
+  background-color: #f1f1f1;
+}
+
+.form-header .text {
+  font-size: 24px;
+  margin-bottom: 20px;
+  word-break: break-all;
+}
+
+.form-header .address {
+  font-size: 16px;
+  margin-bottom: 30px;
+  word-break: break-all;
+}
+
+.form-header .button {
+  font-size: 18px;
+  padding: 15px 20px 15px 25px;
+  color: #fff;
+  background-color: #4c71fe;
+  letter-spacing: 2px;
+}
+
+.form-header .button:hover {
+  background-color: #1949fe;
+}
+
+.form-section-title {
+  margin-bottom: 20px;
+  color: #909090;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.form-location .text {
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  padding: 5px;
+}
+
+.types {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-type .img_wrapper {
+  margin-bottom: 15px;
+}
+
+.form-type .img_wrapper img {
+  width: 45px;
+  height: 45px;
+}
+
+.form-type input[type=radio]:checked + label > .img_wrapper {
+  border: 1px solid #4c71fe;
+  border-radius: 50%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.form-type label {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.form-type span {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.textarea {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+  resize: none;
+}
+
+.input-hidden {
+  position: absolute;
+  left: -9999px;
+}
